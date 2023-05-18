@@ -1,0 +1,34 @@
+{
+    "name": "ARSampleActions",
+    "maps": [
+        {
+            "name": "ARSampleControls",
+            "id": "ab576452-243b-4d15-964a-5b7bcfd80aab",
+            "actions": [
+                {
+                    "name": "ScreenTouch",
+                    "type": "Value",
+                    "id": "23fecffc-c02f-4324-b0d3-2f0efb9230d1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4f20106f-f6ac-4a27-8029-cd6f153571f0",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScreenTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
